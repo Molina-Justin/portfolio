@@ -57,8 +57,8 @@ const Qualification = () => {
                 }> 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">New Jersey Institute of Technology</h3>
-                            <span className="qualification__subtitle">Bachelor's of Science</span>      
+                            <h3 className="qualification__title">Hardvard</h3>
+                            <span className="qualification__subtitle">PHD</span>      
                             <span className="qualification__subtitle">Computer Science</span>                      
                             <div className="qualification__calendar">
                                 {/* <i className="uil uil-calendar-alt"></i>1990-1991 */}

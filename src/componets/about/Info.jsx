@@ -19,7 +19,7 @@ const Info = () => {
       <div className="about__box">
         <i class='bx bxs-school' ></i>
         <h3 className="about__title">Education</h3>
-        <span className="about__subtitle">Bachelors</span>
+        <span className="about__subtitle">Wizard</span>
       </div>
 
       <div className="about__box">
@@ -37,7 +37,7 @@ const Info = () => {
       <div className="about__box">
         <i class='bx bxs-school' ></i>
         <h3 className="about__title">Education</h3>
-        <span className="about__subtitle">Bachelors</span>
+        <span className="about__subtitle">Wizard</span>
       </div>
       
 

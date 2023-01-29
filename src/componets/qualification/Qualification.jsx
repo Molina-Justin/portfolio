@@ -31,9 +31,6 @@ const Qualification = () => {
                 </div> 
 
 
-
-
-
                 <div 
                 className={toggleState === 2 ? 
                 "qualification__button qualification__active button--flex" 

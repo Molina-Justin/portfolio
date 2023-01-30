@@ -46,14 +46,14 @@ nav{
 @media screen and (max-width: 768px) {
     .header{
         top: initial;
-        bottom: 0;
+        top: 0;
     }
     .nav{
         height: var(--header-height);
     }
     .nav__menu{
         position: fixed;
-        bottom: -100%;
+        top: -40%;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
@@ -64,7 +64,7 @@ nav{
     }
     /* Show Menu */
     .show-menu{
-        bottom: 0;
+        top: 0;
     }
 
     .nav__list{

@@ -1,6 +1,6 @@
 import React from 'react'
 import Resume from "../../assets/JustinMolina_Resume.pdf"
-import HeadShot from "../../assets/Memoji.jpg"
+import HeadShot from "../../assets/Memoji_2.png"
 import "./about.css"
 import Info from './Info'
 const About = () => {

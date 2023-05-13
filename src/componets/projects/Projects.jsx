@@ -1,7 +1,7 @@
 import React from 'react';
-import img_1 from "../../assets/img_1.png";
+import img_1 from "../../assets/MedicareScreen.png";
 import img_5 from "../../assets/img_5.png";
-import img_6 from "../../assets/img_6.png";
+
 
 import "./projects.css";
 
@@ -18,24 +18,14 @@ const Projects = () => {
     
                 <div className="project__box">
                     <img src={img_1} alt="" />
-                    <h3 className="project__title">Optical Character Recognition</h3>
+                    <h3 className="project__title">Medicare Visualizer</h3>
                     <div className="project_made">
-                        <h4 className="project__subtitle">Made with
+                        <h4 className="project__subtitle">Made with Vue.js, Cold Fusion, MySQL, EC2, RDS
                         </h4>
-                        
+
                     </div>
                     <span className="project__subtitle">
-                        I created an Optical Character Recognition (OCR) 
-                        website that used Python for the backend and React 
-                        for the frontend. The website utilized OCR technology 
-                        to convert scanned documents, images, and other types 
-                        of documents into editable and searchable text. I used 
-                        Python libraries such as Tesseract or pytesseract to 
-                        handle the OCR processing, while React handled the 
-                        user interface and user interactions. Overall, my 
-                        project aimed to make it easy for users to extract 
-                        text from images, making it more convenient to edit, 
-                        search or analyze the extracted text.
+                    Medicare Visualizer Dashboard, a powerful data visualization platform designed to provide comprehensive insights into Medicare spending trends, demographics, and drug utilization patterns. With its user-friendly interface and advanced analytics capabilities, this platform is tailored to support US policymakers, enabling them to make informed decisions and engage in impactful negotiations with pharmaceutical manufacturers.
                     </span>
                 </div>
 
@@ -43,23 +33,13 @@ const Projects = () => {
                     <img src={img_5} alt="" />
                     <h3 className="project__title">Optical Character Recognition</h3>
                     <div className="project_made">
-                        <h4 className="project__subtitle">Made with
+                        <h4 className="project__subtitle">Made with Python, using This project was made with Python, pandas, NumPy, scikit-learn, and XGBoost
                         </h4>
                         
                     </div>
                     <span className="project__subtitle">
-                        I created an Optical Character Recognition (OCR) 
-                        website that used Python for the backend and React 
-                        for the frontend. The website utilized OCR technology 
-                        to convert scanned documents, images, and other types 
-                        of documents into editable and searchable text. I used 
-                        Python libraries such as Tesseract or pytesseract to 
-                        handle the OCR processing, while React handled the 
-                        user interface and user interactions. Overall, my 
-                        project aimed to make it easy for users to extract 
-                        text from images, making it more convenient to edit, 
-                        search or analyze the extracted text.
-                    </span>
+
+                    This project aims to enhance optical character recognition (OCR) performance by leveraging an ensemble of diverse machine learning classifiers, including SVM, Random Forest, KNN, Neural Networks, and XGBoost, on the EMNIST Balanced dataset, a collection of handwritten digits and characters with balanced class distribution. The results demonstrate the combined strengths of these classifiers in improving OCR accuracy.                    </span>
                 </div>
 
        

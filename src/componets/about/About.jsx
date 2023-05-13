@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from "../../assets/John-Cv.pdf"
+import Resume from "../../assets/JustinMolina_Resume.pdf"
 import HeadShot from "../../assets/Memoji.jpg"
 import "./about.css"
 import Info from './Info'
@@ -15,9 +15,9 @@ const About = () => {
             <div className="about__data">
                 <Info/>
                 <p className="about__description">
-                ipsum dolor sit amet, consectetur adipiscing elit. 
-                Phasellus nec dapibus leo, ac semper eros. 
-                Sed in mauris vitae urna pharetra posuere ut eu tortor.
+                Hey there! I'm Justin, a recent graduate from NJIT with a Bachelor of Science Degree in Computer Science. 
+                I'm passionate about software engineering and using it to make a positive impact. 
+                This website serves as a portfolio of my work and gives you a glimpse into who I am. Thanks for visiting!
                 </p>
                 
                 <a download="" href={Resume} className="button button--flex">

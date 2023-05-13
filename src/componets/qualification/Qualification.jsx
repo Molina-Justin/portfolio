@@ -12,7 +12,7 @@ const Qualification = () => {
 
 
   return (
-    <section className="qualification section">
+    <section className="qualification section" id="skills">
         <h2 className="section__title">Qualification</h2>
         <span className="section__subtitle">My Personal Journey</span>
 
@@ -55,7 +55,7 @@ const Qualification = () => {
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">New Jersey Institute of Technology</h3>
-                            <span className="qualification__subtitle"></span>  <br/>    
+                            <span className="qualification__subtitle">Bachelor of Science</span><br/>    
                             <span className="qualification__subtitle">Computer Science</span>                      
                             <div className="qualification__calendar">
                                 {/* <i className="uil uil-calendar-alt"></i>1990-1991 */}
@@ -78,7 +78,7 @@ const Qualification = () => {
                         </div>
                         <div>
                             <h3 className="qualification__title">Brookdale Community College</h3>
-                            <span className="qualification__subtitle">Associate's of Science</span> 
+                            <span className="qualification__subtitle">Associate of Science</span> 
                             <span className="qualification__subtitle">Computer Science</span> 
 
                             
@@ -88,36 +88,9 @@ const Qualification = () => {
                         </div>
                     </div>
 
-                    <div className="qualification__data">
-                        <div>
-                            <h3 className="qualification__title">AWS Certification</h3>
-                            <span className="qualification__subtitle">AWS Certified Cloud Practitioner.</span>                           
-                            <div className="qualification__calendar">
-                                {/* <i className="uil uil-calendar-alt"></i>1990-1991 */}
-                            </div>
-                        </div>
-                        <div>
-                            <span className="qualification__rounder"></span> 
-                            <span className="qualification__line"></span>
-                        </div>
-                    </div>
+                    
 
-                    <div className="qualification__data">
-                        <div></div>
-                        <div>
-                            <span className="qualification__rounder"></span> 
-                            <span className="qualification__line"></span>
-                        </div>
-                        <div>
-                            <h3 className="qualification__title">Coursea Certification</h3>
-                            <span className="qualification__subtitle">Meta Front-End Developer</span> 
-
-                            
-                            <div className="qualification__calendar">
-                                {/* <i className="uil uil-calendar-alt"></i> Sept 2020 - May 2021 */}
-                            </div>
-                        </div>
-                    </div>
+                    
                     
                 </div> 
 

@@ -14,11 +14,7 @@ const About = () => {
 
             <div className="about__data">
                 <Info/>
-                <p className="about__description">
-                Hey there! I'm Justin, a recent graduate from NJIT with a Bachelor of Science Degree in Computer Science. 
-                I'm passionate about software engineering and using it to make a positive impact. 
-                This website serves as a portfolio of my work and gives you a glimpse into who I am. Thanks for visiting!
-                </p>
+                
                 
                 <a download="" href={Resume} className="button button--flex">
                     Download Resume

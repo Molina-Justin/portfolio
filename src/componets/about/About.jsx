@@ -15,7 +15,7 @@ const About = () => {
             <div className="about__data">
                 <Info/>
                 <p className="about__description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                ipsum dolor sit amet, consectetur adipiscing elit. 
                 Phasellus nec dapibus leo, ac semper eros. 
                 Sed in mauris vitae urna pharetra posuere ut eu tortor.
                 </p>

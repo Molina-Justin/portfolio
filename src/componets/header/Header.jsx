@@ -35,24 +35,14 @@ const Header = () => {
                             Skills             
                         </a>
                     </li>
-                    <li className="nav__item">
-                        <a href="#services" className="nav__link" alt="">
-                            <i className="uil uil-briefcase-alt nav__icons"></i>                        
-                            Services
-                            </a>
-                    </li>
+                    
                     <li className="nav__item">
                         <a href="#portfolio" className="nav__link" alt="">
                             <i className="uil uil-scenery nav__icons"></i>
                             Portfolio
                         </a>
                     </li>
-                    <li className="nav__item">
-                        <a href="#contact" className="nav__link" alt="">
-                            <i className="uil uil-message nav__icons"></i>
-                            Contact Me
-                        </a>
-                    </li>
+                    
                 </ul>
                 <i className="uil uil-times nav__close" onClick={()=> showMenu (!Toggle)}></i>
             </div>
